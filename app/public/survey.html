@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Find a friend">
+    <meta name="author" content="Jorge Castellanos">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The Survey</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+</head>
+
+
+<body>
+
+
+    <div class="container">
+
+
+
+
+        <h1>Survey Questions</h1>
+        <hr>
+        <h3>About You</h3>
+        <div class="form-group">
+            <label for="Name">Your Name (Required)</label>
+            <input type="text" class='form-control validateclass' id='name' placeholder="Ahmed">
+        </div>
+        <div class="form-group">
+            <label for="image">Link to your Photo Image (Required)</label>
+            <input type="text" class='form-control validateclass' id='photo' placeholder="https://pbs.twimg.com/profile_images/981938133049602049/koJT76a-.jpg">
+        </div>
+        <hr>
+        <h3>Question 1</h3>
+        <h4>Do You Like Your Job?</h4>
+        <div class="form-group">
+            <select data-placeholder="" id="q1" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <h3>Question 2</h3>
+        <h4>Do you like to make excercise at night?</h4>
+        <div class="form-group">
+            <select data-placeholder="" id="q2" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <h3>Question 3</h3>
+        <h4>Would you like to get marry in 5 years?</h4>
+        <div class="form-group">
+            <select data-placeholder="" id="q3" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <h3>Question 4</h3>
+        <h4>You are an excellent cooker</h4>
+        <div class="form-group">
+            <select data-placeholder="" id="q4" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <h3>Question 5</h3>
+        <h4>Do you like the babies?</h4>
+        <div class="form-group">
+            <select data-placeholder="" id="q5" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h3>Question 6</h3>
+        <h4>Do you like the fancy cars?</h4>
+        <div class="form-group">
+            <select data-placeholder="" id="q6" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+
+        <h3>Question 7</h3>
+        <h4>Is pizza your favorite dish?</h4>
+        <div class="form-group">
+            <select data-placeholder="" id="q7" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+
+        <h3>Question 8</h3>
+        <h4>Would you like to live at the beach?</h4>
+        <div class="form-group">
+            <select datap-placeholder="" id="q8" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+
+        <h3>Question 9</h3>
+        <h4>How often go to the movies at weekend?</h4>
+        <div class="form-group">
+            <select data-placeholder="" id="q9" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+
+        <h3>Question 10</h3>
+        <h4>Do you like to swim?</h4>
+        <div class="form-group">
+            <select data-placeholder="" id="q10" class="questionsclass">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <button type="submit" data-target="modal1" class="waves-effect waves-light btn modal-trigger cyan lighten-1" id="submitButton">Submit</button>
+
+        <div class="col s8">
+
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>This your best match friend</h4>
+                    <h5 id="matchName"></h5>
+                    <img id="matchPic" src="" alt="No Image" width=200px;>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close window</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class='col s4'>
+            <a href="/api/friends">API Friends List</a>
+            <span>|</span>
+            <a href="https://github.com/jorgecoder1234/friends" target="_blank">Github Repo</a>
+
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#submitButton").on("click", function () {
+                //form validation
+                function validateForm() {
+                    var isValid = true;
+                    $('.validateclass').each(function () {
+                        if ($(this).val() === '') {
+                            isValid = false;
+                        }
+                    });
+                    $('.questionsclass').each(function () {
+                        if ($(this).val() === "") {
+                            isValid = false;
+                        }
+                    });
+                    return isValid;
+                }
+
+                if (validateForm() == true) {
+
+
+                    //Create a new Friend Object
+
+                    var newFriend = {
+                        name: $('#name').val().trim(),
+                        profilePic: $('#photo').val().trim(),
+                        scores: [
+                            $('#q1').val(),
+                            $('#q2').val(),
+                            $('#q3').val(),
+                            $('#q4').val(),
+                            $('#q5').val(),
+                            $('#q6').val(),
+                            $('#q7').val(),
+                            $('#q8').val(),
+                            $('#q9').val(),
+                            $('#q10').val(),
+                        ]
+                    };
+
+                    var currentURL = window.location.origin;
+
+
+                    $.post(currentURL + "/api/friends", newFriend, function (data) {
+
+
+                        //Send the best Friend Object Best Match and take the parameters name and profilePic and show the Modal
+                        $("#matchName").text(data.name);
+                        $("#matchPic").attr("src", data.profilePic);
+                    });
+
+                    $('.modal').modal();
+
+
+
+                    //Clean the form
+
+
+                    $('#name').val("");
+                    $('#photo').val("");
+                    $('#q1').val("");
+                    $('#q2').val("");
+                    $('#q3').val("");
+                    $('#q4').val("");
+                    $('#q5').val("");
+                    $('#q6').val("");
+                    $('#q7').val("");
+                    $('#q8').val("");
+                    $('#q9').val("");
+                    $('#q10').val("");
+                } else {
+                    alert("Some Fileds are missing please fill out everything");
+
+                    //In case old fields wre not fill out hos the alert
+                }
+
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
